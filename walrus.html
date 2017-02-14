@@ -9,16 +9,30 @@
   </head>
   <body>
     <div class="container">
-      <h1>Peek-a-boo</h1>
-      <p><strong>WARNING</strong> Peek-a-boo has been determined by the SurgeonGeneral to be hazardous to developing visual perception in infancy. It's effects upon adult participants has yet to be determined. Octopus studies are not conclusive.</p>
-      <div id="octo-hide">
+      <p>Choose a dark or light background:</p>
+        <button class="btn btn-success" id="bgDark">Dark Theme</button>
+        <button class="btn btn-success" id="bgLight">Light Theme</button>
+      <p>These buttons will make a colorful background:</p>
+      <p>Click a button to choose what color you'd like best</p>
+        <button class="btn btn-success" id="green">Green Theme</button>
+        <button class="btn btn-warning" id="yellow">Yellow Theme</button>
+        <button class="btn btn-danger" id="red">RedTheme</button>
 
+      <h1>Peek-a-boo</h1>
+
+        <p id="warning-hide"><strong>WARNING</strong> Peek-a-boo has been determined by the Surgeon General to be hazardous to developing visual perception in infancy. <br>Its effects upon adult participants has yet to be determined. <br>Octopus studies are not conclusive.<span class="clickable2">Hide this warning</span></p>
+
+        <p id="warning-show"><strong>WARNING</strong> This is the warning-show paragraph.<span class="clickable2">Hide this warning</span></p>
+
+      <div id="octo-hide">
         <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
       </div>
+
       <div id="octo-show">
         <p>Adorable!<span class="clickable"> Click here</span> to hide this again.</p>
         <img src="img/download.jpeg">
       </div>
+
     </div>
   </body>
 </html>

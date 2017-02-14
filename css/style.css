@@ -10,3 +10,53 @@
   text-decoration: underline;
   color: #b2210e;
 }
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover{
+  text-decoration: underline;
+  color: #b2210e;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.dark-background {
+  color: #dbdbdb;
+  background-color: #3f3f3f;
+}
+
+.light-background {
+  color: #3f3f3f;
+  background-color: #dbdbdb;
+}
+
+#bgDark {
+  color: #dbdbdb;
+  background-color: #3f3f3f;
+}
+ß
+#bgLight {
+  color: #3f3f3f;
+  background-color: #dbdbdb;
+}
+
+#warning-hide{
+  display: none;
+}
+
+#warning-show{
+  border: 2px solid blue;
+  background-color:#e47fef;
+}
